@@ -1,5 +1,7 @@
-const express = require('express')
-const mineflayer = require('mineflayer')
+'use strict';
+
+const express = require('express');
+const mineflayer = require('mineflayer');
 const options = {
     host: 'localhost',
     port: 51455
@@ -46,4 +48,4 @@ app.post('/end', (req, res) => {
     res.redirect('/');
 });
 
-app.listen(443)
+app.listen(3000);
