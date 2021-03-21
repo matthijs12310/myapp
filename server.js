@@ -27,6 +27,11 @@ const sendPage = (res) => {
 
 const app = express();
 
+app.post('dltest', (req ,res) =>{
+    const file = `${__dirname}/boo.txt`;
+    res.download(file); // Set disposition and send it.
+});
+
 app.get('/', (req, res) => {
     sendPage(res);
 });
