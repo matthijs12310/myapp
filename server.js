@@ -14,16 +14,14 @@ let bot;
 const sendPage = (res) => {
     res.send(`
     <h1>${bot ? 'Bot is ingelogd' : 'Bot is nog niet ingelogd.'}</h1>
-    <p>Account werkt nu niet dus dit werk niet :(</p>
+    
     <form action="/result" method="POST">
     <button>Join</button>
     </form>
     <form action="/end" method="POST">
     <button>Disconnect</button>
     </form>
-    <form action="/dltest" method="POST">
-    <button>yes</button>
-    </form>
+    
     
     `);
 };
