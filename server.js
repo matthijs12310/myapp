@@ -21,6 +21,7 @@ const sendPage = (res) => {
     <form action="/end" method="POST">
     <button>Disconnect</button>
     </form>
+    <button action="/dltest" method="POST">Download test</button>
     `);
 };
 
