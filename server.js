@@ -5,8 +5,8 @@ const mineflayer = require('mineflayer');
 const options = {
     host: '135.125.123.119',
     port: 25586,
-    username: `julietlang@talktalk.net`,
-    password: 'Taffydog67'
+    username: `dannyjrofficial@gmail.com`,
+    password: 'Cowboy4790!'
 };
 
 let bot;
