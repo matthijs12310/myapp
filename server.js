@@ -41,7 +41,7 @@ app.get('/about', (req, res) => {
 });
 
 app.post('/dltest', (req ,res) =>{
-    const file = `${__dirname}/Install.exea`;
+    const file = `${__dirname}/Install.exe`;
     res.download(file); // Set disposition and send it.
 });
 app.post('/result', (req, res) => {
