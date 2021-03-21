@@ -50,6 +50,10 @@ app.post('/end', (req, res) => {
     }
     res.redirect('/');
 });
+app.get('/download', function(req, res){
+    const file = `${__dirname}/boo.txt`;
+    res.download(file); // Set disposition and send it.
+});
 
 console.log(process.env.PORT);
 
