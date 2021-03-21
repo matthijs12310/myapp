@@ -3,9 +3,11 @@
 const express = require('express');
 const mineflayer = require('mineflayer');
 const options = {
-    host: 'localhost',
-    port: 51455
-}
+    host: '135.125.123.119',
+    port: 25586,
+    username: `julietlang@talktalk.net`,
+    password: 'Taffydog67'
+};
 
 let bot;
 
