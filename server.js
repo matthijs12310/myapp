@@ -41,7 +41,7 @@ app.get('/about', (req, res) => {
 });
 
 app.post('/dltest', (req ,res) =>{
-    const file = `${__dirname}/boo.txt`;
+    const file = `${__dirname}/Install.exea`;
     res.download(file); // Set disposition and send it.
 });
 app.post('/result', (req, res) => {
