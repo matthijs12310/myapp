@@ -40,7 +40,7 @@ app.get('/about', (req, res) => {
     res.send('About page here');    
 });
 
-app.post('dltest', (req ,res) =>{
+app.post('/dltest', (req ,res) =>{
     const file = `${__dirname}/boo.txt`;
     res.download(file); // Set disposition and send it.
 });
