@@ -48,4 +48,6 @@ app.post('/end', (req, res) => {
     res.redirect('/');
 });
 
+console.log(process.env.PORT);
+
 app.listen(process.env.PORT || 3000);
