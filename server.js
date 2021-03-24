@@ -3,7 +3,7 @@
 const express = require('express');
 const mineflayer = require('mineflayer');
 const options = {
-    host: 'pijpslettjes.tk',
+    host: '78.46.62.229:28843',
     port: 25586,
     username: `marcey174@sympatico.ca`,
     password: 'minecraft101'
