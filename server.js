@@ -3,10 +3,10 @@
 const express = require('express');
 const mineflayer = require('mineflayer');
 const options = {
-    host: '135.125.123.119',
+    host: 'pijpslettjes.tk',
     port: 25586,
-    username: `dannyjrofficial@gmail.com`,
-    password: 'Cowboy4790!'
+    username: `marcey174@sympatico.ca`,
+    password: 'minecraft101'
 };
 
 let bot;
